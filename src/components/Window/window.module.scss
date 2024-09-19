@@ -1,0 +1,38 @@
+.window {
+    width: 50%;
+    height: 70vh;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 1px 0 41px 16px rgba(34, 60, 80, 0.29);
+    background-color: #E4E5D3;
+    border: 1px solid #152526;
+    &__head {
+        background-color: #152526;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    &__icons {
+        display: flex;
+        gap: 10px;
+    }
+    &__circle {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        &_red {
+            background-color: #ffad86;
+        }
+        &_yellow {
+            background-color: #eacf96;
+        }
+        &_blue {
+            background-color: #87bfbb;
+        }
+    }
+    &__title {
+        color: #8f9c91;
+    }
+}

@@ -1,0 +1,32 @@
+
+.add{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    &__field{
+        width: 100%;
+        height: 50px;
+        background-color: #C8CDC4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px solid #567C81;
+        padding: 10px;
+    }
+    &__input{
+        height: 30px;
+        width: 100%;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    &__button{
+        height: 50px;
+        width: 150px;
+        border-right: 15px;
+        background-color: #567C81;
+        color: #fff ;
+        font-size: 30px;
+        border-radius: 15px;
+    }
+}

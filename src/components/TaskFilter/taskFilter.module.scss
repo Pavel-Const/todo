@@ -1,0 +1,19 @@
+
+.filter {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+    &__btn {
+        flex: 1 1 calc(33.3% - 10px);
+        height: 40px;
+        border: 1px solid #152526;
+        background-color: #c8cdc4;
+        font-size: 15px;
+        border-radius: 15px;
+        &_active {
+            background-color: #152526;
+            color: #fff;
+        }
+    }
+}
